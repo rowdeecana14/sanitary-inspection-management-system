@@ -54,7 +54,7 @@ class SignatureController extends BaseController {
             $signature_names = [];
             $signature_images = [];
 
-            if(!in_array($signature['sanitary_inspector_id'], ['', null])) {+
+            if(!in_array($signature['sanitary_inspector_id'], ['', null])) {
                 $si_image_url =  Helper::imageUrl($signature['si_image']);
                 $si_image_avatar_status = $signature['si_status'] == "Active" ? "avatar-online" : "avatar-offline";
                 $si_suffix = in_array($signature['si_suffix'], ['', null]) ? '' : ', '.$signature['si_suffix'];

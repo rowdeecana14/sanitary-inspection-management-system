@@ -171,7 +171,7 @@ class MedicalCerticateController extends BaseController {
         $signature = $signature_model->select($show_fields, $join_tables,  $wheres);
 
         $si_suffix = in_array($signature['si_suffix'], ['', null]) ? '' : ', '.$signature['si_suffix'];
-        $si_name = $signature['si_first_name'] . ' '.$signature['si_middle_name'][0].'. '.$signature['si_last_name'].$si_suffix;
+        $si_name = $signature['si_first_name'] . ' '.$signature['si_last_name'].$si_suffix;
         $cho_suffix = in_array($signature['cho_suffix'], ['', null]) ? '' : ', '.$signature['cho_suffix'];
         $cho_name = $signature['cho_first_name'] . ' '.$signature['cho_middle_name'][0].'. '.$signature['cho_last_name'].$cho_suffix;
 

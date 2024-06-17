@@ -6,7 +6,7 @@
 <meta content="<?= auth_user()?>" name="auth-user" />
 
 <!-- <link rel="icon" href="../../public/assets/img/icon.ico" type="image/x-icon"/> -->
-<link rel="icon" href="../../public/assets/img/config/san-carlos.png">
+<link rel="icon" href="../../public/assets/img/config/sims-sm.png">
 
 <!-- Fonts and icons -->
 <script src="../../public/assets/js/plugin/webfont/webfont.min.js"></script>

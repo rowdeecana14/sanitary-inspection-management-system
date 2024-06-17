@@ -6,7 +6,6 @@
 <html lang="en">
 <head>
 	<title>Health Certificates - SIMS</title>
-	<meta content="<?= $_GET['id']; ?>" name="health_official_id" />
 	<?php include_once('../layouts/header.php'); ?>
 </head>
 <body>

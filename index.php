@@ -12,7 +12,7 @@
    <meta content="<?= csrf() ?>" name="csrf-token" />
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="icon" href="public/assets/img/config/san-carlos.png">
+  <link rel="icon" href="public/assets/img/config/sims-sm.png">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
   <script src="public/assets/js/plugin/webfont/webfont.min.js"></script>
@@ -65,7 +65,7 @@
       </nav>
     </header>
 
-    <div class="content-wrapper" style="background-image: url(public/assets/img/config/cityhealthoffice.jpg); background-size: cover; min-height: 600px;">
+    <div class="content-wrapper" style="background-image: url(public/assets/img/config/cityhealthoffice.jpg); background-size: cover; min-height: 91.5vh;">
       <div class="container">
             <section class="content" >
                 <!--Client Form-->
@@ -87,7 +87,7 @@
                           <div id="#addModal" class="modal-dialog modal-success modal-fade modal-md pull-left" style="width:400px !important; margin-top: 120px">
                               <div class="modal-content">
                                   <div class="modal-header">
-                                      <center><h3 class="modal-title"><img src="public/assets/img/config/login.png" height="45px">SIMS Login </h3></center>
+                                      <center><h3 class="modal-title"><img src="public/assets/img/config/sims-sm.png" height="45px"> SIMS Login </h3></center>
                                       </div>
                                   <div class="modal-body">
                                       <div class="row">
@@ -95,7 +95,7 @@
                                           <div class="form-group">
                                               <label style="font-size: 18px;">Username:</label>
                                               <div class="input-group">
-                                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <!-- <span class="input-group-addon"><i class="fa fa-user"></i></span> -->
                                                 <input type="text" class="form-control input-md" name="username" id="username" placeholder="Username" autofocus required>
                                               </div>
 
@@ -103,7 +103,7 @@
                                               <div class="form-group">
                                                   <label style="font-size: 18px;">Password:</label>
                                                   <div class="input-group">
-                                                      <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                                      <!-- <span class="input-group-addon"><i class="fa fa-key"></i></span> -->
                                                       <input type="password" class="form-control input-md" name="password" id="password" placeholder="Password" autofocus required>
                                                   </div>
                                               </div>

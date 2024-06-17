@@ -1,4 +1,4 @@
-<div class="sidebar sidebar-style-2" data-background-color="blue">			
+<div class="sidebar sidebar-style-2" data-background-color="green2" style="background-color: #3d753f !important;">			
     <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
             <div class="user">
@@ -32,7 +32,7 @@
                 </div>
             </div>
             
-            <ul class="nav nav-primary">
+            <ul class="nav nav-success">
                 <li class="nav-section">
                     <span class="sidebar-mini-icon">
                         <i class="fa fa-ellipsis-h"></i>
